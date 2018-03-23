@@ -3,12 +3,12 @@
 using namespace std;
 int main()
 {
-  int a;
+  int k;
   cout<<"Enter the input";
-  cin>>a;
-  if(a>=1000)
+  cin>>k;
+  if(k>=1000)
   {
-  if(a%4==0)                                     
+  if(k%4==0)                                     
   {
 cout<<"It is leap year";
 }
