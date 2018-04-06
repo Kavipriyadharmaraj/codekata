@@ -2,23 +2,23 @@
 #include<conio.h>
 void main()
 {
-int i,j,n,temp,a[100];
+int x,y,n,temp,a[100];
 clrscr();
 printf("Enter the number");
 scanf("%d",&n);
-for(i=0;i<n;i++)
+for(x=0;x<n;x++)
 {
-scanf("%d",&a[i]);
+scanf("%d",&a[x]);
 }
-for(i=0;i<n;i++)
+for(x=0;x<n;x++)
 {
-for(j=i+1;j<n;j++)
+for(y=x+1;y<n;y++)
 {
-if(a[i]>a[j])
+if(a[x]>a[y])
 {
-temp=a[i];
-a[i]=a[j];
-a[j]=temp;
+temp=a[x];
+a[x]=a[x];
+a[y]=temp;
 }
 }
 }
